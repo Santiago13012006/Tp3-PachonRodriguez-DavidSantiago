@@ -1,0 +1,7 @@
+Vous pouvez choisir 6 images de pochette de disque parmi celles proposées au lien suivant :
+
+https://livecegepfxgqc.sharepoint.com/:f:/r/sites/05A-InterfacesWeb/Shared%20Documents/%C3%89valuations/TP3%20-%20Site%20web%20responsive/images-pochettes?csf=1&web=1&e=z5pdrD
+
+Notes :
+- Ces images sont toutes libre de droit.
+- Celles-ci sont déjà optimisées. Vous n'avez pas à les redimensionner.
