@@ -1,35 +1,56 @@
-*{ box-sizing: border-box;}
+* {
+	box-sizing: border-box;
+}
 
 
 /* Typographies / Couleurs (exemples : titres, paragraphes, liens, etc.)
 ========================================================================== */
 
-body{
+body {
 	background-color: white;
 }
 
 /* Mise en page (positionnement)
 ========================================================================== */
 
-.container{
+.container {
 	width: 90%;
 	max-width: 1200px;
 	margin: 0 auto;
 }
-title{
-	color:black;
+
+title {
+	color: black;
 }
 
 
 /* Header / Navigations / Footer 
 ========================================================================== */
-nav li{
-	display: inline-block;
-	padding: 10px 20px;
-	text-align: right;
-	color: black;
-
+.flex-cotes{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
+#nav-principale li{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#nav-principale a{
+	display: inline-block;
+	background-color: #ffffff;
+	padding: 5px 10px;
+	
+	text-decoration: none;
+	
+}
+
+#nav-principale a:hover{
+	background-color: rgb(211, 245, 245);
+}
+
+
+
 
 
 /* Composantes générales (exemples : section, cartes, tableaux, etc.)
