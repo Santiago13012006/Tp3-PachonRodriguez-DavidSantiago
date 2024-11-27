@@ -40,7 +40,6 @@ title {
 	display: inline-block;
 	background-color: #ffffff;
 	padding: 5px 10px;
-	
 	text-decoration: none;
 	
 }
@@ -48,8 +47,15 @@ title {
 #nav-principale a:hover{
 	background-color: rgb(211, 245, 245);
 }
-
-
+.bas_page{
+	background-color: black;
+	color: white;
+}
+.bas_page a{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 
 
 
