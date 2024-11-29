@@ -26,36 +26,32 @@ title {
 
 /* Header / Navigations / Footer 
 ========================================================================== */
-.flex-cotes{
+.flex-cotes{ 
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 }
-#nav-principale li{
-	display: inline-block;
-	margin-left: 10px;
+nav ul {
+	margin: 0;
+	padding: 0;
 }
 
-#nav-principale a{
-	display: inline-block;
-	background-color: #ffffff;
-	padding: 5px 10px;
+
+nav a {
+	
 	text-decoration: none;
+	padding: 10px 20px ;
+}
+nav li{
+	display: inline-block;
 	
 }
 
-#nav-principale a:hover{
-	background-color: rgb(211, 245, 245);
-}
+
 .bas_page{
 	background-color: black;
 	color: white;
 }
-.bas_page a{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
+
 
 
 
