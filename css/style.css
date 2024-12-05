@@ -32,6 +32,9 @@ title {
 	justify-content: space-between;
 	align-items: center;
 }
+.flex-ligne{
+	display: flex;
+}
 nav ul {
 	margin: 0;
 	padding: 0;
@@ -59,8 +62,11 @@ nav li{
 }
 .grille_disque{
 	display: grid;
-	grid-template-columns: 2fr 2fr 2fr;
-	grid-template-rows: 2fr 2fr 2fr;
+	grid-template-columns: 2fr 2fr 2fr 2fr;
+	grid-template-rows:  2fr 2fr;
+	gap: 2rem;
+	text-align: center;
+	text-decoration: none	;
 	
 }
 
@@ -89,8 +95,17 @@ nav li{
 .banniere_disque{
 	background-color: black;
 	color: aliceblue;
+	margin-bottom:2rem;
+	margin-top: 2rem;
+	padding: 1.5rem;
+	font-size: 1.5rem;
 }
 
+input[type="button"]
+{
+	background-color: gold;
+	padding: 0.5rem;
+}
 
 
 
@@ -139,6 +154,10 @@ input[type="passeword"],input[type="text"]{
 		background-color: red;
 	}
 }	
-
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
 	
 
