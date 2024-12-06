@@ -69,7 +69,21 @@ nav li{
 	text-decoration: none	;
 	
 }
-
+.bouton{
+	text-decoration: none;
+	margin-bottom: 2rem;
+	background-color: black;
+	color: white;
+	padding:1rem;
+}
+.bouton_footer{
+	text-decoration: none;
+	margin: 1rem;
+	background-color:white;
+	color:black;
+	padding:0.5rem;
+	text-align: center;
+}
 
 .banniere{
 	background-color: black;
@@ -101,10 +115,12 @@ nav li{
 	font-size: 1.5rem;
 }
 
-input[type="button"]
+input[type="submit"]
 {
-	background-color: gold;
+	background-color: black;
 	padding: 0.5rem;
+	color: white;
+
 }
 
 
