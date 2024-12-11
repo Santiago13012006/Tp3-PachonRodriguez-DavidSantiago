@@ -26,83 +26,120 @@
 
     </header>
     <main>
-       
-            <form class="flex" method="get" action="fiche_disque.html">
-                <div class="container flex-cotes">
-                <fieldset>
-                    <legend>Donnée Personelle</legend>
-                    <div class="flex">
-                          <div class="container menu">
-                            
-                            <label for="txt-album">Titre de l'album</label>
-                            <input class="space_fmlr" type="text" id="txt-album" name="txt-album" placeholder="Legends Never Die"
-                                required>
-                            <label for="artiste">Nom de l'artiste: </label>
-                            <input class="space_fmlr" type="text" id="artiste" name="artiste"
-                                placeholder="Juice Wrld" required>
 
-                        </div> </div>
-                </fieldset>
-                <fieldset class="menu" >
-                    <legend>Informatique-sur la chanson</legend>
-                    <div class="menu" >
-                        <legend>Type de musique</legend>
+        <form method="post" action="fiche_disque.html">
+            <div class="container flex-cotes">
 
-                        <input type="checkbox" id="rock" value="rock">
-                        <label for="rock">Rock</label>
+                <div class="flex">
+                    <div class="container menu">
 
-                        <input type="checkbox" id="pop" value="pop">
-                        <label for="pop">POP</label>
+                        <label for="txt-album">Titre de l'album :</label>
+                        <input class="space_fmlr" type="text" id="txt-album" name="txt-album"
+                            placeholder="Legends Never Die" required>
+                        <label for="artiste">Nom de l'artiste: </label>
+                        <input class="space_fmlr" type="text" id="artiste" name="artiste" placeholder="Juice Wrld" required>
 
-                        <input type="checkbox" id="hiphop" value="hiphop">
-                        <label for="hiphop">Hip-Hop</label>
 
-                        <input type="checkbox" id="electro" value="electro">
-                        <label for="electro">Électro</label>
+                        <fieldset>
+                            <legend>Date de parution :</legend>
+                            <label for="mois">Sélectionnez une date :</label>
+                            <input class="space_fmlr" type="month" name="mois" id="mois" required>
+                        </fieldset>
 
-                        <input type="checkbox" id="metal" value="metal">
-                        <label for="metal">Métal</label>
-
-                        <input type="checkbox" id="punk" value="punk">
-                        <label for="punk">Punk</label>
-
-                        <input type="checkbox" id="jazz" value="jazz">
-                        <label for="jazz">Jazz</label>
-
-                        <input type="checkbox" id="classique" value="classique">
-                        <label for="classique">Classique</label>
-                    </div>
-                    <div>
-                        <legend>Type de musique</legend>
-                        <input type="radio" name="rdo-format" id="format-txt" value="Excellente">
-                        <label for="Excellente">Excellente</label>
-                        <input type="radio" name="rdo-format" id="format-txt" value="Bonne" checked>
-                        <label for="Bonne">Bonne</label>
-                        <input type="radio" name="rdo-format" id="format-txt" value="Passable">
-                        <label for="Passable">Passable</label>
-                        <input type="radio" name="rdo-format" id="format-txt" value="Basse">
-                        <label for="Basse">Basse</label>
-                    </div>
-                    <div>
-                        <legend>Date de parution </legend>
-                        <input type="month" name="mois" id="mois " required>
+                        <fieldset>
+                            <legend>Télécharger une nouvelle image</legend>
+                            <label for="image">Choisir une image :</label>
+                            <input class="space_fmlr" type="file" name="image" id="image">
+                        </fieldset>
 
 
                     </div>
-                    <div>
-                        <legend>Télecharger une nouvelle image</legend>
-                        <input type="file" name="image" id="image">
+                </div>
+
+                <fieldset class="inp-check menu">
+
+
+                    <div class="menu">
+                        <fieldset>
+                            <legend>Type de musique</legend>
+                            <div>
+                                <input type="checkbox" id="rock" value="rock">
+                                <label for="rock">Rock</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="pop" value="pop">
+                                <label for="pop">Pop</label>
+
+                            </div>
+                            <div>
+                                <input type="checkbox" id="hiphop" value="hiphop">
+                                <label for="hiphop">Hip-Hop</label>
+
+                            </div>
+                            <div>
+                                <input type="checkbox" id="electro" value="electro">
+                                <label for="electro">Électro</label>
+
+                            </div>
+                            <div>
+                                <input type="checkbox" id="metal" value="metal">
+                                <label for="metal">Métal</label>
+
+                            </div>
+                            <div>
+                                <input type="checkbox" id="punk" value="punk">
+                                <label for="punk">Punk</label>
+
+                            </div>
+                            <div>
+                                <input type="checkbox" id="jazz" value="jazz">
+                                <label for="jazz">Jazz</label>
+
+                            </div>
+                            <div>
+                                <input type="checkbox" id="classique" value="classique">
+                                <label for="classique">Classique</label>
+
+                            </div>
+                        </fieldset>
 
                     </div>
+                    <fieldset>
+                        <legend>Qualite de la chanson </legend>
+                        <div>
+                            <div>
+                                <input type="radio" name="rdo-format" id="excellente" value="Excellente">
+                                <label for="excellente">Excellente</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="rdo-format" id="bonne" value="Bonne" checked>
+                                <label for="bonne">Bonne</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="rdo-format" id="passable" value="Passable">
+                                <label for="passable">Passable</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="rdo-format" id="basse" value="Basse">
+                                <label for="basse">Basse</label>
+                            </div>
+
+                        </div>
+                    </fieldset>
                     <div>
-                        <textarea name="description" id="description" maxlength="400"></textarea>
+                        <label for="description">Description :</label>
+                        <div>
+                            <textarea name="description" id="description" maxlength="400"></textarea>
+                        </div>
                     </div>
                     <input type="submit">
 
+                </fieldset>
+            </div>
+        </form>
 
-            </form>
-            </fieldset>
-        </div>
+
     </main>
     <footer>
         <div class="banniere">
