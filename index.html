@@ -27,16 +27,21 @@
 	</header>
 	<main class="container">
 
-		<div class=" grille ">
+		<div class=" grille  ">
 			<img src="./css/img/image-1.jpg" alt="image Menu">
-			<form class="banniere_menu connexion span_fmlr" action="nom-utilsateur" >
+			<form class=" banniere_menu span_fmlr flex" method="post" action="disque.html">
+				<div class="container menu">
+					<h1>Connexion</h1>
+					<label for="txt-nom">Nom d'utilisateur</label>
+					<input class="space_fmlr" type="text" id="txt-nom" name="txt-nom" placeholder="email@.com" required>
+					<label for="passeword">Mot passe:</label>
+					<input class="space_fmlr" type="password" id="passeword" name="passeword" placeholder="Mot de passe"
+						required>
+					<input class="flex_gauche"  type="submit" >
+				</div>
 
-				<h1>Connexion</h1>
-				<label for="txt-nom">Nom d'utilisateur</label>
-				<input class="space_fmlr" type="text" id="txt-nom" name="txt-nom" required>
-				<label for="passeword">Mot passe:</label>
-				<input class="space_fmlr" type="passeword" id="passeword" name="passeword">
-				<a class="bouton" href="disque.html">Me connecter</a>
+
+
 			</form>
 
 			<img src="./css/img/img-3.jpg" alt="Image Menu">
@@ -50,11 +55,11 @@
 	</main>
 	<footer>
 		<div class="banniere">
-            <div class="container flex-cotes">
-                <p><strong>Sillon</strong> : 1660 boul. de l'Entente,Quebec</p>
-                <a class="bouton_footer" href="tel-418-123-4567">418-123-4567</a>
-            </div>
-        </div>
+			<div class="container flex-cotes">
+				<p><strong>Sillon</strong> : 1660 boul. de l'Entente,Quebec</p>
+				<a class="bouton_footer" href="tel-418-123-4567">418-123-4567</a>
+			</div>
+		</div>
 
 		<div class="container">
 			<p>sité realiser par <strong>David Santiago Pachon Rodriguez</strong> | Dans le cadre de l'informatique-

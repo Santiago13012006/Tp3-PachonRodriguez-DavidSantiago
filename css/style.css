@@ -63,7 +63,7 @@ nav li{
 .grille_disque{
 	display: grid;
 	grid-template-columns: 2fr 2fr 2fr 2fr;
-	grid-template-rows:  2fr 2fr;
+	
 	gap: 2rem;
 	text-align: center;
 	text-decoration: none	;
@@ -98,13 +98,19 @@ nav li{
 	margin-bottom: 2rem ;
 }
 .banniere_menu{
-	background-color: gray;
+	background-color: rgb(196, 189, 189);
+	
+	
+	
+}
+.menu{
 	display: flex;
-	align-items: center;
 	flex-direction: column;
 	text-align: left;
-	
-	
+}
+.flex{
+	display: flex;
+	align-items: center;
 }
 .banniere_disque{
 	background-color: black;
@@ -122,6 +128,9 @@ input[type="submit"]
 	color: white;
 
 }
+.flex_gauche{
+	align-self:start;
+}
 
 
 
@@ -134,12 +143,19 @@ input[type="submit"]
 	gap: 1.5rem;
 	
 }
+.grille_fiche{
+	display: grid;
+	grid-template-columns: 1fr 1fr;	
+	align-items: stretch;
+	gap: 1.5rem;
+	padding: 2 rem;
+	margin-bottom: solid red;
+	
+}
 img{
 	max-width: 100%;
 }
-.connexion{
-	justify-content: center;
-}
+
 .span_fmlr{
 	grid-row:  span 2;
 	grid-column: span 2;
@@ -156,10 +172,7 @@ img{
 	margin: 1rem;
 	
 }
-input[type="passeword"],input[type="text"]{
-	padding-left: 5rem;
-	padding-right: 5rem;
-}
+
 
 
 /* Règles spécifiques aux pages
@@ -175,5 +188,7 @@ ul{
 	margin: 0;
 	padding: 0;
 }
-	
+a{
+	text-decoration: none;
+}
 
